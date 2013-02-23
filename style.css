@@ -17,9 +17,22 @@ header section.slider {
 }
 
 header section.menu {
-	min-height: 50px;
 	margin: 20px 0;
 	border: 1px solid #0f0;
+}
+
+header section.menu div.searchbar {
+	width: 240px;
+	float: left;
+	min-height: 50px;
+	border: 1px solid #C00;
+}
+
+header section.menu nav {
+	width: 700px;
+	margin-left: auto;
+	min-height: 50px;
+	border: 1px solid #0c0;
 }
 
 div.contents {
@@ -37,14 +50,58 @@ div.contents section.content {
 div.contents  section.rightside {
 	width: 240px;
 	margin-left: auto;
-	min-height: 300px;
 	border: 1px solid #f0f;
+}
+
+div.contents  section.rightside div.logreg {
+	margin-top: 5px;
+	min-height: 180px;
+	border: 1px solid #00c;
+}
+
+div.contents  section.rightside div.news {
+	margin-top: 5px;
+	min-height: 250px;
+	border: 1px solid #cc0;
+}
+
+div.contents  section.rightside div.spansors {
+	margin-top: 5px;
+	min-height: 180px;
+	border: 1px solid #c0c;
+}
+
+div.contents  section.rightside div.recommendfood {
+	margin-top: 5px;
+	min-height: 200px;
+	border: 1px solid #0cc;
 }
 
 footer section.info {
 	margin-top: 5px;
-	min-height: 200px;
 	border: 1px solid #0ff;
+}
+
+footer section.info div.question {
+	width: 300px;
+	float: left;
+	min-height: 150px;
+	border: 1px solid #300;
+}
+
+footer section.info div.contactus {
+	width: 300px;
+	float: left;
+	margin-left: 10px;
+	min-height: 100px;
+	border: 1px solid #030;
+}
+
+footer section.info div.category {
+	width: 320px;
+	margin-left: auto;
+	min-height: 150px;
+	border: 1px solid #003;
 }
 
 footer section.copyright {
