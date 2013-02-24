@@ -4,6 +4,11 @@
 .clear{clear:both;display:block;width:0 !important;height:0 !important;min-height:0 !important;min-width:0 !important;margin:0 !important;padding:0 !important;overflow:hidden}
 .zedloos{padding-top:1px;padding-bottom:1px}
 
+div.containers {
+	width: 100%;
+	border: 1px solid #000;
+}
+
 div.container{
 	width: 950px;
 	margin: 0 auto;
@@ -12,30 +17,43 @@ div.container{
 }
 
 header section.slider {
+	width: 950px;
+	margin: 0 auto;
 	min-height: 300px;
 	border: 1px solid #f00;
 }
 
 header section.menu {
-	margin: 20px 0;
+	width: 950px;
+	margin: 20px auto 20px;
 	border: 1px solid #0f0;
 }
 
 header section.menu div.searchbar {
-	width: 240px;
+	width: 220px;
 	float: left;
 	min-height: 50px;
 	border: 1px solid #C00;
 }
 
+header section.menu div.ilogo {
+	width: 145px;
+	float: left;
+	margin-left: 5px;
+	min-height: 50px;
+	border: 1px solid #CCC;
+}
+
 header section.menu nav {
-	width: 700px;
+	width: 570px;
 	margin-left: auto;
 	min-height: 50px;
 	border: 1px solid #0c0;
 }
 
 div.contents {
+	width: 950px;
+	margin: 0 auto 10px;
 	border: 1px solid #00f;
 	margin-bottom: 10px;
 }
@@ -75,6 +93,11 @@ div.contents  section.rightside div.recommendfood {
 	margin-top: 5px;
 	min-height: 200px;
 	border: 1px solid #0cc;
+}
+
+footer {
+	width: 950px;
+	margin: 0 auto;
 }
 
 footer section.info {
