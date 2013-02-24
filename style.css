@@ -133,3 +133,27 @@ footer section.copyright {
 	min-height: 30px;
 	border: 1px solid #00f;
 }
+
+div.contents  section.content div.bestplaces {
+	margin-top: 15px;
+	min-height: 250px;
+	border: 1px solid #ccc;
+}
+
+div.contents  section.content div.sponsors {
+	margin-top: 15px;
+	min-height: 200px;
+	border: 1px solid #ddd;
+}
+
+div.contents  section.content div.bestfoods {
+	margin-top: 15px;
+	min-height: 250px;
+	border: 1px solid #666;
+}
+
+div.contents  section.content div.newestplaces {
+	margin-top: 15px;
+	min-height: 250px;
+	border: 1px solid #666;
+}
